@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "cuislime:item/slime_gelatin_with_honey"
+  }
+}
