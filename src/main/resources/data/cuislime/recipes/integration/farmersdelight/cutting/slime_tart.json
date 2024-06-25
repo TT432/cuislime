@@ -1,0 +1,17 @@
+{
+	"type": "farmersdelight:cutting",
+	"ingredients": [
+		{
+			"item": "cuislime:slime_tart"
+		}
+	],
+	"result": [
+		{
+			"count": 4,
+			"item": "cuislime:slime_tart_slice"
+		}
+	],
+	"tool": {
+		"tag": "forge:tools/knives"
+	}
+}

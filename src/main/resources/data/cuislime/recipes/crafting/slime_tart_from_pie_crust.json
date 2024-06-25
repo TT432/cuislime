@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"SSS",
+		"ECE"
+	],
+	"key": {
+		"S": {
+			"item": "minecraft:slime_ball"
+		},
+		"E": {
+			"tag": "forge:eggs"
+		},
+		"C": {
+			"item": "farmersdelight:pie_crust"
+		}
+	},
+	"result": {
+		"item": "cuislime:slime_tart"
+	}
+}
