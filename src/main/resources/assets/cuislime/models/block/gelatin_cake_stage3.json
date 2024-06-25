@@ -1,0 +1,82 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
+	"render_type": "translucent",
+	"textures": {
+		"0": "cuislime:block/gelatin_cake_bottom",
+		"1": "cuislime:block/gelatin_cake_side",
+		"2": "cuislime:block/gelatin_cake_top",
+		"3": "cuislime:block/gelatin_cake_decoration",
+		"4": "cuislime:block/gelatin_cake_inner",
+		"particle": "cuislime:block/gelatin_cake_bottom"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [1, 0, 1],
+			"to": [9, 4, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 1]},
+			"faces": {
+				"north": {"uv": [7, 12, 15, 16], "texture": "#1"},
+				"east": {"uv": [1, 12, 15, 16], "texture": "#4"},
+				"south": {"uv": [1, 12, 9, 16], "texture": "#1"},
+				"west": {"uv": [1, 12, 15, 16], "texture": "#1"},
+				"up": {"uv": [1, 1, 9, 15], "texture": "#0"},
+				"down": {"uv": [1, 1, 9, 15], "texture": "#0"}
+			}
+		},
+		{
+			"name": "gelatin",
+			"from": [1, 4, 1],
+			"to": [9, 8, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 4, 1]},
+			"faces": {
+				"north": {"uv": [7, 8, 15, 12], "texture": "#1"},
+				"east": {"uv": [1, 8, 15, 12], "texture": "#4"},
+				"south": {"uv": [1, 8, 9, 12], "texture": "#1"},
+				"west": {"uv": [1, 8, 15, 12], "texture": "#1"},
+				"up": {"uv": [1, 1, 9, 15], "texture": "#2"}
+			}
+		},
+		{
+			"name": "decoUpright1",
+			"from": [8, 8, 5.5],
+			"to": [8, 12, 10.5],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [5, 0, 0, 4], "texture": "#3"},
+				"west": {"uv": [0, 0, 5, 4], "texture": "#3"}
+			}
+		},
+		{
+			"name": "decoUpright2",
+			"from": [8, 8, 4.5],
+			"to": [8, 12, 10.5],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [5, 0, 11, 4], "texture": "#3"},
+				"west": {"uv": [11, 0, 5, 4], "texture": "#3"}
+			}
+		},
+		{
+			"name": "decoOther1",
+			"from": [8, 10.5, 9],
+			"to": [10, 10.5, 11],
+			"rotation": {"angle": -45, "axis": "x", "origin": [9, 10.5, 9]},
+			"faces": {
+				"up": {"uv": [11, 0, 13, 2], "texture": "#3"},
+				"down": {"uv": [11, 2, 13, 0], "texture": "#3"}
+			}
+		},
+		{
+			"name": "decoOther2",
+			"from": [6, 8.5, 6],
+			"to": [8, 8.5, 8],
+			"rotation": {"angle": 45, "axis": "y", "origin": [7, 8.5, 7]},
+			"faces": {
+				"up": {"uv": [11, 0, 13, 2], "texture": "#3"},
+				"down": {"uv": [11, 2, 13, 0], "texture": "#3"}
+			}
+		}
+	]
+}
