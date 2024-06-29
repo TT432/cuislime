@@ -1,0 +1,41 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/block",
+	"render_type": "translucent",
+	"textures": {
+		"0": "cuislime:block/gelatin_cake_bottom",
+		"1": "cuislime:block/gelatin_cake_side",
+		"2": "cuislime:block/gelatin_cake_top",
+		"4": "cuislime:block/gelatin_cake_inner",
+		"particle": "cuislime:block/gelatin_cake_bottom"
+	},
+	"elements": [
+		{
+			"name": "base",
+			"from": [1, 0, 1],
+			"to": [7, 4, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0, 1]},
+			"faces": {
+				"north": {"uv": [9, 12, 15, 16], "texture": "#1"},
+				"east": {"uv": [1, 12, 15, 16], "texture": "#4"},
+				"south": {"uv": [1, 12, 7, 16], "texture": "#1"},
+				"west": {"uv": [1, 12, 15, 16], "texture": "#1"},
+				"up": {"uv": [1, 1, 7, 15], "texture": "#0"},
+				"down": {"uv": [1, 1, 7, 15], "texture": "#0"}
+			}
+		},
+		{
+			"name": "gelatin",
+			"from": [1, 4, 1],
+			"to": [7, 8, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 4, 1]},
+			"faces": {
+				"north": {"uv": [9, 8, 15, 12], "texture": "#1"},
+				"east": {"uv": [1, 8, 15, 12], "texture": "#4"},
+				"south": {"uv": [1, 8, 7, 12], "texture": "#1"},
+				"west": {"uv": [1, 8, 15, 12], "texture": "#1"},
+				"up": {"uv": [1, 1, 7, 15], "texture": "#2"}
+			}
+		}
+	]
+}

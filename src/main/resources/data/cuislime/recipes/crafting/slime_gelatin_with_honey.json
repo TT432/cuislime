@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{"item": "minecraft:slime_ball"},
+		{"item": "minecraft:honey_bottle"},
+		{"item": "minecraft:bowl"}
+	],
+	"result": {
+		"item": "cuislime:slime_gelatin_with_honey"
+	}
+}
